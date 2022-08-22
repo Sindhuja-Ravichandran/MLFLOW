@@ -9,7 +9,7 @@ mlflow ui
 # To open MLFLOW UI
 - Use the below code in jupyter
 ```
- import mlflow
+import mlflow
 remote_server_uri = "http://127.0.0.1:5000"
 mlflow.set_tracking_uri(remote_server_uri)
 ```	 
